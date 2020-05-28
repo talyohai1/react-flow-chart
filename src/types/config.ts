@@ -3,6 +3,7 @@ import { IOnLinkCompleteInput } from './functions'
 
 export interface IConfig {
   readonly?: boolean
+  disableDrag?: boolean;
   snapToGrid?: boolean
   smartRouting?: boolean
   gridSize?: number

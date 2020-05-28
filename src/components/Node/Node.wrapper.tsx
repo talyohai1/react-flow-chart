@@ -161,7 +161,7 @@ export const NodeWrapper = ({
       onStart={onStart}
       onDrag={onDrag}
       onStop={onStop}
-      disabled={config.readonly}
+      disabled={config.readonly || config.disableDrag}
     >
       <Component
         config={config}
