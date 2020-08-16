@@ -3,7 +3,7 @@
   "version": "0.0.11",
   "description": "A flexible, stateless flow chart library for react.",
   "main": "src/index.js",
-  "repository": "github:talyohai1/react-flow-chart#feature/release-0.0.11-modified",
+  "repository": "git@github.com:MrBlenny/react-flow-chart.git",
   "author": "David Revay <daverevay@gmail.com>",
   "license": "MIT",
   "devDependencies": {
