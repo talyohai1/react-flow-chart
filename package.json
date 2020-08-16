@@ -39,7 +39,6 @@
     "pathfinding": "^0.4.18",
     "react-draggable": "^3.0.5",
     "react-resize-observer": "^1.1.1",
-    "run-script-os": "^1.1.1",
     "styled-components": "^5.0.0",
     "uuid": "^3.3.2"
   },
@@ -53,9 +52,6 @@
     "build": "tsc",
     "test": "npm run lint",
     "lint": "tslint -p tsconfig.json -c tslint.json",
-    "postinstall": "run-script-os",
-    "postinstall:windows": "move dist/* .",
-    "postinstall:default": "mv dist/* ."
   },
   "files": [
     "dist"
