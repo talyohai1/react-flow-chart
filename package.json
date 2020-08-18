@@ -55,7 +55,7 @@
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "postinstall": "run-script-os",
     "postinstall:windows": "rmdir src /s /q && move dist/* . && rmdir dist",
-    "postinstall:default": "rm -r src && mv dist/* . && rmdir dist"
+    "postinstall:default": "rm -rf src && mv dist/* . && rmdir dist"
   },
   "files": [
     "dist"
