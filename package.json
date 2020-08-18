@@ -57,5 +57,7 @@
     "postinstall:windows": "move dist/* . && rmdir dist",
     "postinstall:default": "mv dist/* . && rmdir dist"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
