@@ -45,8 +45,7 @@
   },
   "peerDependencies": {
     "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "run-script-os": "^1.1.1"
+    "react-dom": "^16.8.4"
   },
   "scripts": {
     "start:storybook": "start-storybook -p 6006 -c config/storybook",
