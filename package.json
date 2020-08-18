@@ -52,5 +52,6 @@
     "build": "tsc",
     "test": "npm run lint",
     "lint": "tslint -p tsconfig.json -c tslint.json"
-  }
+  },
+  "files": ["dist"]
 }
