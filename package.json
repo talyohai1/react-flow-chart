@@ -24,7 +24,7 @@
     "lodash": "^4.17.15",
     "np": "^3.0.4",
     "react": "^16.8.4",
-    "react-dom": "^16.8.5",
+    "react-dom": "^16.8.4",
     "react-json-view": "^1.19.1",
     "ts-loader": "^5.2.2",
     "ts-node": "^7.0.1",
@@ -45,7 +45,8 @@
   },
   "peerDependencies": {
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "run-script-os": "^1.1.1"
   },
   "scripts": {
     "start:storybook": "start-storybook -p 6006 -c config/storybook",
